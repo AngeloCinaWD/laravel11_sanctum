@@ -33,6 +33,7 @@ class AuthController extends Controller
 
         $user = User::where('email', $request->email)->first();
 
+        // Hash::check controlla che la password passata al momento del login e quella hashata hel DB siano uguali, il primo argomento è la password stringa (non hashata, quella che arriva con la request), il secondo argomento è la password dello user che è stato trovato tramite email nel DB (la password nel DB è hashata)
         if (!$user || !Hash::check($request->password, $user->password)) {
 //            Questo return non va bene, torna un messaggio e non un errore
 //            se infatti al momento del login inserisco una mail corretta ed una password sbagliata avrei  questo messaggio come risposta
