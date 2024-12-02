@@ -11,6 +11,11 @@ use Laravel\Sanctum\HasApiTokens;
 class User extends Authenticatable
 {
     /** @use HasFactory<\Database\Factories\UserFactory> */
+    /**
+     * per generare i tokens con sanctum deve essere utilizzato il trait HasApiTokens
+     * va aggiunto a mano dopo aver installato sanctum
+     */
+
     use HasFactory, Notifiable, HasApiTokens;
 
     /**
@@ -47,6 +52,8 @@ class User extends Authenticatable
         ];
     }
 
+    // relazione one to many verso posts
+    // un utente può avere molti posts
     public function posts() {
         return $this->hasMany(Post::class);
     }

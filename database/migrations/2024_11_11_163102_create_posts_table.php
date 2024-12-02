@@ -9,6 +9,11 @@ return new class extends Migration
     /**
      * Run the migrations.
      */
+
+    /**
+     * devo aggiungere alla migration generata le proprietà che metto nei filable del model
+     * devo descrivere cosa sono
+     */
     public function up(): void
     {
         Schema::create('posts', function (Blueprint $table) {

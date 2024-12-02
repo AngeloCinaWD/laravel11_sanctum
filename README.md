@@ -8,3 +8,17 @@
 
 ## [Validation](https://laravel.com/docs/11.x/validation#quick-writing-the-validation-logic)
 ## [Validation Rules](https://laravel.com/docs/11.x/validation#quick-writing-the-validation-logic)
+
+![validation_list_1](./validation_list_1.png)
+![validation_list_2](./validation_list_2.png)
+
+## [XHR Requests and Validation](https://laravel.com/docs/11.x/validation#quick-xhr-requests-and-validation)
+## [Validation Error Response Format](https://laravel.com/docs/11.x/validation#validation-error-response-format)
+
+![Validation Error Response Format_JSON](./validation_error_response_format.png)
+![Api Route Laravel Name](./api_route_methods_name.png)
+![Accept: application/json](./accept_application_json.png)
+
+## [Migrations columns type](https://laravel.com/docs/11.x/migrations#available-column-types)
+## [Migrations columns modifiers](https://laravel.com/docs/11.x/migrations#column-modifiers)
+## [Foreign key constraints](https://laravel.com/docs/11.x/migrations#foreign-key-constraints)
