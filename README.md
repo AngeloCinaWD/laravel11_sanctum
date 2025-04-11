@@ -22,3 +22,5 @@
 ## [Migrations columns type](https://laravel.com/docs/11.x/migrations#available-column-types)
 ## [Migrations columns modifiers](https://laravel.com/docs/11.x/migrations#column-modifiers)
 ## [Foreign key constraints](https://laravel.com/docs/11.x/migrations#foreign-key-constraints)
+
+## [Resume Laravel](https://marcocasparriello.it/laravel-11-filament-tutorial/#rest-api-con-resource-controllers-e-api-resource)
